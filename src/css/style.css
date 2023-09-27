@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    overflow:x hidden;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+  .nav-item i{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+  .navbar .dropdown{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: #444443;
+    top: 100%;
+    left: 100%;
+    transition: 0.4s;
+  }
+  .navbar.dropdown.active{
+    left: 0 !important;
+  }
+
+
+
+
+ 
+  .section-2{
+    background-image: url(../img/game-presentation-parallax-1.jpg);
+    padding: 20% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .section-2 h1,h2,h3{
+    color: white;
+  }
+  .section-2 h1{
+    margin: 10px 0 30px;
+  }
+  .section-2 h3{
+    font-size: medium;
+  }
+  .section-2 h2{
+    font-size: medium;
+    margin: 30px 150px 0;
+  }
+  .section-4{
+    background-image: url(../img/game-presentation-parallax-3.jpg);
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-4 h3{
+    color: white;
+    font-size: medium;
+  }
+  .section-4 h1{
+    padding: 10px 450px 20px;
+    color: white;
+  }
+  .section-4 h2{
+    color: rgba(255, 255, 255, 0.633);
+    padding: 30px 430px 60px;
+    font-size: large;
+  }
+  .card-text{
+    color: white;
+  }
+  .card-text a{
+    text-decoration:none;
+    color: white;
+    font-size: medium;
+  }
+  .card-text p{
+    margin: 20px;
+    font-size: small;
+  }
+  .card-text img{
+  padding-bottom: 10%;
+  }
+  .section-5 i{
+    background-size: cover;
+  width: 100%;}
+
+    .section-5 .text-center{
+      color: white;
+      padding: 15%;
+    }
+    .section-5 h5{
+      padding: 5% 15% 4%;
+      font-size: medium;
+    }
+
+    .section-6{
+      background-image: url(../img/game-presentation-parallax-4.jpg);
+      padding: 16% 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .section-6 h3{
+      font-size: medium;
+    }
+    .section-6 h1{
+      color: white;
+      padding: 0 0 2% 0;
+      font-size: 50px;
+    }
+    .section-6 img{
+      margin-bottom: 3%;
+    }
+    .section-6 .text{
+      width: 550px;
+      height: 60px;
+      background: none;
+      border: 1px solid white;
+    }
+    .section-6 ::placeholder{
+      color: rgba(240, 248, 255, 0.696);
+      padding: 0 30px ;
+    }
+    .section-6 .button{
+      width: 200px;
+      height: 60px;
+      background: none;
+      border: 1px solid white;
+      color: rgba(255, 255, 255, 0.681);
+      margin-left: 20px;
+    }
+    .section-7{
+      background-image: url(../img/game-presentation-parallax-5.jpg);
+      padding: 16% 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .section-7 h1{
+      font-size: 60px;
+      margin-bottom: 3%;
+      color: aliceblue;
+    }
+    .section-7 img{
+      margin-bottom: 20px;
+    }
+    .countdown-row {
+      clear: both;
+      width: 100%;
+      padding: 0 2px;
+      text-align: center;
+  }
+  .edgt-countdown .countdown-section {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: inherit;
+}
+.edgt-countdown .countdown-amount {
+  display: block;
+  position: relative;
+  font-size: 58px;
+  line-height: 1em;
+  font-weight: 500;
+  color: #928e75;
+}
+.edgt-countdown .countdown-period {
+  display: block;
+  margin-top: 11px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #928e75;
+}
+.countdown-show3 .countdown-section {
+  width: 30%;
+}
+.section-8{
+  background-image: url(../img/game-presentation-parallax-6.jpg);
+  padding: 5% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-8 h1{
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.section-8 p{
+  color: aliceblue;
+  margin-right: 30%;
+}
+  
+.section-8 .button{
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 1px solid white;
+  color: rgba(255, 255, 255, 0.681);
+  margin: 40px 20px 0 0
+}
+.section-9 img{
+  width: 40%;
+}
+footer{
+  background-color: #444443;
+}
+.footer a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 20px;
+}
